@@ -1,0 +1,42 @@
+PROJECT OVERVIEW
+The goal of this project was to create an interactive Power BI dashboard to visualize and analyze data collected from a survey. The dataset included information about survey participants and their experiences working in the data field. Prior to visualization, data transformation was performed using PowerQuery to ensure data accuracy and usability for the visualization process.
+
+DATA TRANSFORMATION
+DATA CLEANING AND TRANSFORMATION
+- Data types were adjusted to ensure compatibility.
+- Columns 'Country,' 'Favorite Programming Language,' 'Which Title Best Fits Your Current Role', and 'If you were to look for a job today, what would be the most important thing to you?' were transformed using split by delimiter and replace (values).
+- The 'Salary' column, which initially contained salary ranges, was converted into average salaries.
+- The average overall job satisfaction was calculated.
+
+VISUALIZATIONS USED
+- Stacked bar graphs
+- Clustered bar charts
+- Gauges
+- Donut charts
+- Treemap
+- Cards
+
+Hierarchies were used to enable users to drill down and explore the data on deeper levels, enhancing the interactive nature of the dashboard.
+
+KEY FINDINGS
+The analysis of the survey data revealed the following key insights:
+
+Participants: There were 630 survey participants.
+Location: Most participants are from the United States.
+Gender: The majority of participants are male.
+Industry: The top three industries are Tech, Finance, and Healthcare.
+Salary: The average salary is approximately $53.9 thousand per year.
+Age: The average age of participants is nearly 30 years old.
+Job Titles: The top three most common job titles are Data Scientist, Data Engineer, and Data Architect.
+
+PARTICIPANTS' EXPERIENCE WORKING IN THE DATA FIELD
+Breaking into Data: Most participants found breaking into the data field moderately challenging.
+Favorite Programming Language: Python is the most favored programming language.
+Priorities: Salary is the top priority, followed by the possibility of remote work and work/life balance.
+Job Satisfaction: Participants rated their overall job satisfaction at an average of around 5 on a scale from 0 to 10.
+
+CONCLUSION
+This Power BI project successfully transformed survey data and provided meaningful insights into survey participants and their experiences in the data field. The interactive dashboard allows users to explore the data and gain a better understanding of the survey results.
+
+
+Data used for this project is real data from a survey conducted by Alex (https://github.com/AlexTheAnalyst).
